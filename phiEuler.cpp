@@ -19,13 +19,11 @@ int main()
 {
     int n = 187;
     int phi_n = eulerPhi(n);
-    cout << phi_n << endl;
-    /*int d, e = 9;
-    // (d*e) mod phi_n = 1 => d = ?
-    d = (1 * e) % phi_n;
-    cout << d << endl;
+    //cout << phi_n << endl;
+    int d, e = 9;
+    // (d*e) mod phi_n = 1
     for (d = 1;; ++d)
         if ((d*e) % phi_n == 1) break;
-    cout << d << endl;*/
+    cout << d << endl;
     return 0;
 }
